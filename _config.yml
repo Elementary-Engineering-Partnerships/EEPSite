@@ -1,0 +1,103 @@
+# =====================================================
+# JEKYLL BASE CONFIGURATION
+# =====================================================
+
+title: Elementary Engineering Partnerships
+email: your-email@example.com
+description: >-
+  Official Website of Elementary Engineering Partnerships at the University of Michigan.
+baseurl: "" # e.g. /blog if deployed under a subpath
+url: "https://yourdomain.com" # your full domain
+
+# Theme and Plugins
+theme: jekyll-text-theme
+theme_mode: auto
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+
+
+
+markdown: kramdown
+highlighter: rouge
+permalink: date
+
+# =====================================================
+# TEXT THEME CONFIGURATION
+# =====================================================
+
+text_skin: default
+highlight_theme: default
+
+search:
+  provider: false
+
+page:
+  title:
+    align: center
+
+lang: en
+timezone: America/New_York
+
+author:
+  type: person
+  name: Mateo Arredondo
+  bio: Computer engineering student passionate about cybersecurity and design.
+  linkedin: https://www.linkedin.com/company/elementary-engineering-parnerships/
+  instagram: https://www.instagram.com/um_eep/
+
+brand:
+  logo: /assets/images/EEPOGLOGO.jpg
+  name: Elementary Engineering Partnerships
+  url: /
+
+favicon: /assets/images/EEPOGLOGO.jpg
+
+paginate: 8
+paginate_path: /page:num
+
+# Optional features
+excerpt_separator: <!--more-->
+license: CC-BY-NC-4.0
+toc:
+  selectors: "h1,h2,h3"
+
+sharing:
+  provider: false
+
+comments:
+  provider: false
+
+pageview:
+  provider: false
+
+
+analytics:
+  provider: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - /test
+  - /docs
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      sharing: true
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_subscribe: true
+      pageview: true
+
+
