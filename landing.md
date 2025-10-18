@@ -8,8 +8,6 @@ data:
       theme: light
       excerpt: >-
         We aim to provide early exposure to the world of engineering to elementary students through student-led, human-centered, interactive activities and design experiences, as well as sustained mentorship with undergraduate engineering students. We want the kids to leave our program feeling like they can do anything they set their minds to. Our mission will be accomplished by adhering to our values of learning and education, inclusivity, creativity, and innovation. Our program can be easily incorporated into classrooms by supplementing the Next Generation Science Standards for engineering design and Essential Elements of Project Based Learning.
-      background_image:
-        src: /assets/chalkboard.jpeg
       actions:
         - text: Learn More
           url: /about/

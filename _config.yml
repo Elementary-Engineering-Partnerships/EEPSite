@@ -6,8 +6,9 @@ title: Elementary Engineering Partnerships
 email: your-email@example.com
 description: >-
   Official Website of Elementary Engineering Partnerships at the University of Michigan.
-baseurl: "" # e.g. /blog if deployed under a subpath
-url: "https://yourdomain.com" # your full domain
+
+baseurl: "/EEPSite"
+url: "https://elementary-engineering-partnerships.github.io"
 
 # Theme and Plugins
 theme: jekyll-text-theme
