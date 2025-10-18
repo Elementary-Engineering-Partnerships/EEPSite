@@ -11,7 +11,7 @@ baseurl: "/EEPSite"
 url: "https://elementary-engineering-partnerships.github.io"
 
 # Theme and Plugins
-theme: jekyll-text-theme
+theme: jekyll-text-theme-custom
 theme_mode: auto
 plugins:
   - jekyll-feed
