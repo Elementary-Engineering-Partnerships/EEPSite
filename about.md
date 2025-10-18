@@ -34,13 +34,7 @@ permalink: /about/
 </div>
 
 <div class="insta-card">
-    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-  <iframe
-    src="//lightwidget.com/widgets/ec86b46599bc55da8c145dbaa51ce6aa.html"
-    scrolling="no" 
-    allowtransparency="true" 
-    class="lightwidget-widget">
-  </iframe>
+    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/ec86b46599bc55da8c145dbaa51ce6aa.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 </div>
 
 <style>

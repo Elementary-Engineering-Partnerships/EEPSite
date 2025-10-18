@@ -105,25 +105,6 @@ permalink: /join/
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  .gi-lead { color: #e5e7eb; }
-  .gi-body p {
-    background: #1e1e1e;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-  }
-  .gi-cta a {
-    color: #ffffffff;
-    border-bottom-color: rgba(147, 197, 253, 0.5);
-  }
-  .gi-button {
-    text-align: center;
-    background: #ffffffff;
-  }
-  .gi-button:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-  }
 }
 
 .page__content {

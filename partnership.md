@@ -70,16 +70,6 @@ Our facilitators, university undergraduate students, are the backbone of our pro
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark){
-  .gi-section{ color:#e5e7eb; }
-  .gi-section h2{ color:#f3f4f6; }
-  .gi-lead{ color:#e5e7eb; }
-  .gi-body p{ background:#1e1e1e; box-shadow:0 2px 10px rgba(0,0,0,.5); }
-  .gi-cta a{ color:#93c5fd; border-bottom-color:rgba(147,197,253,.5); }
-  .gi-cta a:hover{ color:#bfdbfe; border-bottom-color:#bfdbfe; }
-}
-
 .page__content {
   max-width: 900px;
   margin: 0 auto;
