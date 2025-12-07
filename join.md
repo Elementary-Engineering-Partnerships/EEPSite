@@ -8,37 +8,40 @@ permalink: /join/
   <div class="gi-lead">Join Elementary Engineering Partnerships!</div>
 
   <div class="gi-body">
-
-    <p>
-      Elementary Engineering Partnerships (EEP) is always looking for passionate University of Michigan students who are excited to make a difference in K–12 education. By becoming a facilitator, you’ll have the chance to inspire curiosity and creativity in young learners through fun, hands-on engineering lessons.
+  <p>
+  Elementary Engineering Partnerships (EEP) is always looking for passionate University of Michigan students who are excited to make a difference in K–12 education. By becoming a facilitator, you’ll have the chance to inspire curiosity and creativity in young learners through fun, hands-on engineering lessons.
     </p>
-
     <p>
-      Facilitators are undergraduate students from a wide range of majors and backgrounds who work directly in elementary classrooms across Ann Arbor and Ypsilanti. Each facilitator leads weekly one-hour modules over a 5–7 week period, helping students explore real-world engineering problems and discover how science and teamwork come together.
+  Facilitators are undergraduate students from a wide range of majors and backgrounds who work directly in elementary classrooms across Ann Arbor and Ypsilanti. Each facilitator leads weekly one-hour modules over a 5–7 week period, helping students explore real-world engineering problems and discover how science and teamwork come together.
     </p>
-
     <p>
-      No prior teaching experience is required—just enthusiasm, reliability, and a genuine interest in working with children! EEP provides all lesson materials and full training before you begin. Our program also emphasizes reflection and collaboration: facilitators meet weekly to share experiences, discuss classroom strategies, and strengthen their communication and leadership skills.
+  No prior teaching experience is required—just enthusiasm, reliability, and a genuine interest in working with children! EEP provides all lesson materials and full training before you begin. Our program also emphasizes reflection and collaboration: facilitators meet weekly to share experiences, discuss classroom strategies, and strengthen their communication and leadership skills.
     </p>
-
     <p>
-      If you’re a University of Michigan student interested in community engagement, education, or engineering outreach, EEP offers a rewarding opportunity to develop those skills while giving back to local schools.
+  If you’re a University of Michigan student interested in community engagement, education, or engineering outreach, EEP offers a rewarding opportunity to develop those skills while giving back to local schools.
     </p>
-
     <p>
       Applications for new facilitators open at the beginning of each semester. Positions are volunteer-based, though some may qualify for course credit or fulfill service learning requirements depending on your department.
-    </p>
+      </p>
+        <p class="gi-cta">
+        Ready to join? Fill out our interest form below or reach out to us at
+        <span id="contact-email"></span> for more details!
+      </p>
+  <script>
+      const user = "eepeboard";        
+      const domain = "umich.edu"; 
+      const email = user + "@" + domain;
+      const link = document.createElement("a");
+      link.href = "mailto:" + email;
+      link.textContent = email;
+      document.getElementById("contact-email").appendChild(link);
+  </script>
 
-    <p class="gi-cta">
-      Ready to join? Fill out our interest form below or reach out to us at
-      <a href="mailto:[email protected]">[email protected]</a> for more details!
-    </p>
 
  <div class="gi-button-container">
-  <a href="https://forms.gle/your-google-form-link-here" target="_blank" rel="noopener" class="gi-button">
+  <a href="https://forms.gle/oTP2vPnP84sCBwQq9" target="_blank" rel="noopener" class="gi-button">
     Apply to Become a Facilitator
   </a>
-</div>
 
   </div>
 </div>
@@ -105,12 +108,10 @@ permalink: /join/
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
-}
-
 .page__content {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2em 1em;
+  padding: 1.5em 2em;
   text-align: center;
 }
 

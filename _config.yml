@@ -43,9 +43,9 @@ lang: en
 timezone: America/New_York
 
 author:
-  type: person
-  name: Mateo Arredondo
-  bio: Computer engineering student passionate about cybersecurity and design.
+  type: organization
+  name: Elementary Engineering Partnerships
+  bio: Elementary Engineering Partnerships at the University of Michigan.
   linkedin: https://www.linkedin.com/company/elementary-engineering-parnerships/
   instagram: https://www.instagram.com/um_eep/
 

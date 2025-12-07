@@ -20,11 +20,24 @@ Teachers are provided access to our current curriculum, and we are available to 
     <p>
 Our facilitators, university undergraduate students, are the backbone of our program. They are our direct connection with the students and are responsible for implementing the EEP curriculum.  Although we select facilitators with a clear interest in outreach and elementary education, they are provided with extensive training before working in the classrooms. Facilitators also participate in weekly meetings and lesson planning for the modules.  They provide leadership and help establish community in the classroom. 
     </p>
-    <p class="gi-cta">
+  </div>
+    <div class="gi-cta">
+     <p>
       Please contact us via
-      <a href="mailto:[email protected]">[email protected]</a>
-      if you would like more information on how to partner with EEP!
-    </p>
+      <span id="contact-email"></span> if you would like more information on how to partner with EEP!
+     </p>
+
+  <script>
+     const user = "eepeboard";        
+      const domain = "umich.edu"; 
+      const email = user + "@" + domain;
+
+      const link = document.createElement("a");
+      link.href = "mailto:" + email;
+      link.textContent = email;
+
+      document.getElementById("contact-email").appendChild(link);
+  </script>
   </div>
 </div>
 
@@ -49,10 +62,11 @@ Our facilitators, university undergraduate students, are the backbone of our pro
 
 
 .gi-cta{
-  margin-top:.5rem;
+  margin-top: 1.7em;
   font-weight:600;
 }
 .gi-cta a{
+  text-align: center;
   color:#2563eb;
   text-decoration:none;
   border-bottom:1px solid rgba(37,99,235,.35);
@@ -60,6 +74,14 @@ Our facilitators, university undergraduate students, are the backbone of our pro
 .gi-cta a:hover{
   color:#1e40af;
   border-bottom-color:rgba(30,64,175,.6);
+}
+
+.gi-cta p{
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5em 2em;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .gi-body p{
@@ -73,7 +95,7 @@ Our facilitators, university undergraduate students, are the backbone of our pro
 .page__content {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2em 1em;
+  padding: 1.5em 2em;
   text-align: center;
 }
 

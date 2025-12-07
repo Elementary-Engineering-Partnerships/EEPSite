@@ -74,14 +74,7 @@ function createSlideCard(slide) {
   return card;
 }
 
-
 async function loadSlides() {
-  if (GOOGLE_SHEET_CSV_URL === "YOUR_CSV_EXPORT_URL_HERE") {
-    errorDetails.textContent = "Please set the GOOGLE_SHEET_CSV_URL in the script.";
-    errorBox.style.display = "block";
-    return;
-  }
-
   try {
     const res = await fetch(GOOGLE_SHEET_CSV_URL);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -160,7 +153,7 @@ document.addEventListener("DOMContentLoaded", loadSlides);
 .page__content {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2em 1em;
+  padding: 1.5em 2em;
   text-align: center;
 }
 

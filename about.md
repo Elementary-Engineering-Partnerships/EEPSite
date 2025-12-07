@@ -3,47 +3,51 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-<section class="values-section">
+<section id="Values" class="values-section">
   <h2>Our Values</h2>
-
-  <div class="value-item">
-    <h3>Inclusive Learning</h3>
-    <p>
-      EEP supports inclusive learning as an essential component for our facilitator and student experience. EEP aims for all participants, including facilitators, to gain knowledge in engineering, teamwork, and design. EEP recognizes that all students learn differently, and we aim to create an environment that values diversity and enables participation for all students.
-    </p>
-  </div>
-
-  <div class="value-item">
-    <h3>Creativity and Innovation</h3>
-    <p>
-      To encourage new, unique ways to solve problems and approach situations, EEP is dedicated to encouraging creativity and innovation. This skillset enables students to reach their potential in engineering design challenges.
-    </p>
-  </div>
-
-  <div class="value-item">
-    <h3>Mentorship</h3>
-    <p>
-      EEP is dedicated to creating meaningful relationships between students, facilitators, and all participants in the program. Through fostering these relationships, confidence and self-empowerment is possible to build in all participants, encouraging the pursuit of engineering and everyday challenges.
-    </p>
+  <div class="values-topics">
+    <ul>
+      <li>
+        <strong>Inclusive Learning</strong>
+        <ul>
+          EEP supports inclusive learning as an essential component for our facilitator and student experience. EEP aims for all participants, including facilitators, to gain knowledge in engineering, teamwork, and design. EEP recognizes that all students learn differently, and we aim to create an environment that values diversity and enables participation for all students.
+        </ul>
+      </li>
+      <li>
+        <strong>Creativity and Innovation</strong>
+        <ul>
+          To encourage new, unique ways to solve problems and approach situations, EEP is dedicated to encouraging creativity and innovation. This skillset enables students to reach their potential in engineering design challenges.
+        </ul>
+      </li>
+      <li>
+        <strong>Mentorship</strong>
+        <ul>
+          EEP is dedicated to creating meaningful relationships between students, facilitators, and all participants in the program. Through fostering these relationships, confidence and self-empowerment is possible to build in all participants, encouraging the pursuit of engineering and everyday challenges.
+        </ul>
+      </li>
+    </ul>
   </div>
 </section>
 
-<div class="page__content">
-    <p>See what we are up to on Instagram!</p>
-</div>
+<section id="page_content" class="page_content">
+  <div class="insta">
+    <p>
+    See what we are up to on Instagram!
+    </p>
+  </div>
 
-<div class="insta-card">
+  <div class="insta-card">
     <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/ec86b46599bc55da8c145dbaa51ce6aa.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-</div>
+  </div>
+</section>
 
 <style>
 
 .values-section {
   max-width: 900px;
   margin: 0 auto;
-  padding: 4em 1.5em;
-  text-align: left;
+  padding: 3em 1.5em;
+  color: #374151;
 }
 
 .values-section h2 {
@@ -54,12 +58,31 @@ permalink: /about/
   color: #1f2937;
 }
 
-.value-item {
-  display: grid;
-  grid-template-columns: 200px 1fr; 
-  gap: 2em;
-  align-items: start;
+
+.values-topics > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.values-topics > ul > li {
   margin-bottom: 2.5em;
+  text-align: ;
+}
+
+.values-topics strong {
+  text-align: center;
+  display: block;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1em;
+}
+
+
+.values-topics ul ul {
+  text-align: left;
   background: #fff;
   border-radius: 12px;
   padding: 1.5em 2em;
@@ -67,30 +90,16 @@ permalink: /about/
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.value-item h3 {
-  font-weight: 700;
-  font-size: 1.05em;
-  color: #1f2937;
-  margin: 0;
-  text-align: right;
-}
-
-.value-item p {
-  margin: 0;
+.values-topics li li {
+  margin-bottom: 0.6em;
+  line-height: 1.5;
   color: #374151;
-  line-height: 1.6;
 }
 
-@media (max-width: 700px) {
-  .value-item {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .value-item h3 {
-    text-align: center;
-    margin-bottom: 0.5em;
-  }
+.values-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4em 1.5em;
 }
 
 
@@ -127,13 +136,20 @@ permalink: /about/
   }
 }
 
+.insta {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 1.5em;
+  color: #1f2937;
+}
+
 .page__content {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2em 1em;
+  padding: 1.5em 2em;
   text-align: center;
 }
-
 /* Dark Mode looks ugly
 @media (prefers-color-scheme: dark) {
 
