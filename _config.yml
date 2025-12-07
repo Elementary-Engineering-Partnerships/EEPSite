@@ -8,7 +8,7 @@ description: >-
   Official Website of Elementary Engineering Partnerships at the University of Michigan.
 
 baseurl: "/EEPSite"
-url: "https://elementary-engineering-partnerships.github.io"
+url: "https://umeep.com"
 
 # Theme and Plugins
 theme: jekyll-text-theme-custom
